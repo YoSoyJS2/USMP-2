@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaiser Cat Cinema</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu-icon" class="menu-icon">
+        <img src="Imagenes/ima2.png" />
+      </div>
+      <h1>Bienvenido a Kaiser Cat Cinema</h1>
+      <div id="menu-icon2" class="menu-icon">
+        <img src="Imagenes/ima5.png" />
+      </div>
+      <nav id="menu" class="hidden">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Conctacto.html">Contacto</a></li>
+          <li><a href="acerca_de_nosotros.html">Acerca de nosotros</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="movie-grid">
+        <div class="movie-item">
+          <img
+            src="Imagenes/ima1.png"
+            alt="American Kingdoms - Medieval American Poster"
+          />
+        </div>
+        <div class="movie-item">
+          <img
+            src="Imagenes/ima3.png"
+            alt="Reichspakt-Entente Alliance Poster - An Alliance for Peace"
+          />
+        </div>
+        <div class="movie-item">
+          <img
+            src="Imagenes/ima4.png"
+            alt="Kaiserreich - German Empire Propaganda Poster - Stark, Wachsam, Bereit"
+          />
+        </div>
+        <div class="movie-item">
+          <img
+            src="Imagenes/ima6.png"
+            alt="USA Loyalist Poster - Up with the Stars!"
+          />
+        </div>
+        <div class="movie-item">
+          <img
+            src="Imagenes/ima7.png"
+            alt="Austria-Hungary Propaganda Poster - Immer Vereint"
+          />
+        </div>
+        <div class="movie-item">
+          <img
+            src="Imagenes/ima8.png"
+            alt="Kaiserreich - Dominion Of Canada Propaganda Poster - Return Home"
+          />
+        </div>
+      </div>
+    </main>
+    <script text="text/javascript">
+      document
+        .getElementById("menu-icon")
+        .addEventListener("click", function () {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("hidden");
+        });
+    </script>
+  </body>
+</html>
